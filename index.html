@@ -4,41 +4,103 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/main.css">
-    <!--Import Google Icon Font-->
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-      
-    <!-- Compiled and minified CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-
-    <!-- Compiled and minified JavaScript -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     
+    <!-- CSS Bootstrap-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <!-- JS Bootstrap-->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+     
     <title>Minha pagina</title>
 </head>
 <body>
 
-    <nav>  
-        <div>
-            <p class="right-align">
-                <a>Home |</a><a> Quem somos |</a><a> Contato |</a>
-            </p>
+    <nav class="navbar navbar-expand-lg navbar-light">  
+        <a class="navbar-brand" href="#">         
+            <img class="rounded-circle" src="img/logo.jpg" width="200" height="80">
+        </a>
+        <div class="collapse navbar-collapse">       
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#quemsomos">Quem somos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#servicos">Serviços</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contato">Contato</a>
+                </li>
+                <li></li>
+            </ul>
         </div>
     </nav>
-    
 
-    <header></header>
     <section class="divider">        </section>
-    <section class="section" id="first_section">
-        <h5>Time</h5>
-        <p>Time composto pelos profissionais 
-            mais experientes do mercado</p>
+    <section class="section " id="servicos">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <h3>Serviços</h3>
+                    <br>
+                    <p>Nossos serviços contam com front-end,
+                    back-end e IOT. 
+                    </p>
+                </div>
+                <div class="col-lg-6">
+                    <h3>Serviços</h3>
+                    <br>
+                    <p>Nossos serviços contam com front-end,
+                    back-end e IOT. 
+                    </p>
+                </div>
+            </div>
+        </div>
+
     </section>
 
-    <header></header>
+    <section class="divider"> </section>
+    <section class="section" id="quemsomos">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+
+                    <h3>Quem somos</h3>
+                    <p>Tendo trabalhado em diversos projetos ,conta 
+                        com um portifolio rico .
+                    </p>
+                </div>
+                <div class="col-lg-6">
+
+                    <h3>Quem somos</h3>
+                    <p>Tendo trabalhado em diversos projetos ,conta 
+                        com um portifolio rico .
+                    </p>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
     <section class="divider">        </section>
-    <section class="section" id="second_section">
-        <h5>Section 2</h5>
-        <p>Stuff</p>
+    <section class="section" id="contato">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <h3>Contato</h3>
+                    <p>Email:</p>
+                    <p>Telefone:</p>
+                </div>
+                <div class="col-lg-6">
+                    <h3>Contato</h3>
+                    <p>Email:</p>
+                    <p>Telefone:</p>
+                </div>
+            </div>
+        </div>
+
+        
     </section>
     
 

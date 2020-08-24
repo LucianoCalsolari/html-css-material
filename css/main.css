@@ -1,11 +1,19 @@
-#first_section{
+body{
+    font: Helvetica;
+}
+
+.navbar{
+    background-color: #b4005a;
+}
+
+#servicos{
     background-color: darkslategray;
     padding: 10%;
     padding-top: 20%;
     padding-bottom: 20%;
 
 }
-#second_section{
+#quemsomos{
     
     background-color: floralwhite;
     padding: 10%;
@@ -13,6 +21,13 @@
     padding-bottom: 20%;
 }
 
+#contato{
+    
+    background-color: lightslategray;
+    padding: 10%;
+    padding-top: 20%;
+    padding-bottom: 20%;
+}
 footer{
     color: blanchedalmond;
     background-color: black;
